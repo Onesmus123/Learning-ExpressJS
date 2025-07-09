@@ -5,8 +5,6 @@ node_modules/
 logs/
 *.log
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
 # Environment variables
 .env
@@ -27,11 +25,5 @@ coverage/
 *.swp
 *.swo
 
-# Dependency lock files (optional - keep one)
+# Dependency lock files 
 package-lock.json
-yarn.lock
-
-# Optional: local database / cache
-*.sqlite
-*.db
-.cache/
